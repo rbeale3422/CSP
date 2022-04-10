@@ -3,9 +3,9 @@ class Message():
     def __init__(self, original_message, offset):
         self.original = original_message
         self.off = offset
-        self.encrypted_message = self.encode()
+        self.encrypted_message = self.__encode()
     
-    def encode(self):
+    def __encode(self):
         letters = 'a b c d e f g h i j k l m n o p q r s t u v w x y z'.split()
         new_message = ''
         for c in self.original:
