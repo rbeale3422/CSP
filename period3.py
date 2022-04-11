@@ -1,5 +1,5 @@
 import tkinter as tk
-from message_encode import Message
+from message_encodeP3 import Message
 
 def on_submit():
     message = message_var.get()
