@@ -9,7 +9,7 @@ class Message():
         letters = 'a b c d e f g h i j k l m n o p q r s t u v w x y z'.split()
         new_message = ''
         for c in self.original:
-            if c == ' ' or c == '.' or c == '?' or c == '!':
+            if c not in letters:
                 new_message += c
             else:
                 letter_pos = letters.index(c) + self.off
