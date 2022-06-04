@@ -1,1 +1,2 @@
 this is a test of my ssh cert
+it works from the cli but does it work from vscode
